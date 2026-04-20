@@ -1,0 +1,44 @@
+-- FUNCIONES DE RESUMEN (AGREGACIÓN)
+-- -----------------------------------
+
+-- Contar la cantidad de operarios que tienen mail cargado
+
+-- El promedio de superficie de los edificios
+
+-- El costo total y promedio de las órdenes de trabajo finalizadas
+
+-- Por cada tipo de edificio, mostrar el tipo y la cantidad de edificios
+
+-- Por cada edificio, la cantidad de órdenes de trabajo registradas. Sólo aquellos edificios que tengan más de 2 órdenes.
+
+-- Por cada orden de trabajo, el total gastado en insumos (cantidad * costo unitario). Sólo las órdenes cuyo gasto en insumos supere los $10.000.
+
+
+
+-- SUBCONSULTAS
+-- ---------------------------------
+
+-- Subconsultas escalares
+-----------------------------
+
+-- Los edificios que tienen más superficie que el promedio de superficie (entre todos los edificios)
+
+-- Los edificios que tienen más superficie que cualquier edificio de tipo 'R' (Residencial). (Debe tener más superficie que el edificio Residencial con mayor superficie.)
+
+-- Por cada edificio, listar nombre y la cantidad de órdenes de trabajo del año 2024 y la cantidad de órdenes del año 2026.
+
+
+
+-- Subconsultas de Columnas
+-----------------------------
+
+-- Los operarios que no tienen ninguna orden de trabajo asignada
+
+-- Los operarios que pertenecen a la misma especialidad que 'Carlos Méndez'.
+
+
+-- Subconsultas de Varias Columnas
+----------------------------------
+
+
+-- Los edificios que tuvieron más órdenes de trabajo en 2024 que en 2026, pero que hayan tenido órdenes en ambos años.
